@@ -1332,3 +1332,5 @@ function iconsAtTwoSizes(iconID) {
 		32: `images/icons/${iconID}-32x32.png`,
 	};
 }
+
+openWinamp();

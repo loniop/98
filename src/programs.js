@@ -948,7 +948,7 @@ function openWinamp(file_path) {
 					skinOverlayEnabled = localStorage.getItem("webamp_skin_overlay_enabled") === "true";
 				}
 			} catch (error) {
-				// no local storage
+				// no local storage, use defaults above
 			}
 
 			const visualizerOverlay = visualizerOverlayEnabled ? new VisualizerOverlay(
